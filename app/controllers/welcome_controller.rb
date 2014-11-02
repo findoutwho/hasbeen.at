@@ -1,10 +1,11 @@
 class WelcomeController < ApplicationController
   def index
+
     @attendees = [
-      'Franz',
-      'Max Muetze',
-      'Alice',
-      'Bob'
+      Attendee.new(name: 'Franz', web: 'example.com'),
+      Attendee.new(name: 'max_muetze', web: 'example.com'),
+      Attendee.new(name: 'alice', web: 'example.com'),
+      Attendee.new(name: 'bob', web: 'example.com')
     ]
   end
 end
