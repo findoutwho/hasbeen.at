@@ -1,9 +1,10 @@
 <div class="attendees">
+  <h3 class="heading">attendees:</h3>
   <ul>
     <% @attendees.each do |attendee| %>
       <li class='attendee'>
         <div class='attendee-name'>
-          [<%= link_to attendee.name, controller: 'attendees', action: 'show', id: attendee.name %>]
+          <%= link_to "- #{attendee.name}", controller: 'attendees', action: 'show', id: attendee.name %>
         </div>
       </li>
     <% end %>

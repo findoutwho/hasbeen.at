@@ -4,10 +4,17 @@
 @import 'foundation'
 
 .attendees
+  font-family: "Courier"
+  .heading
+    @include grid-column(12)
+    font-family: "Courier"
   .attendee
     @include grid-row()
     list-style-type: none
     .attendee-name
       @include grid-column(12)
-      font-family: Courier
-      font-size: 26px
+      font-size: 20px
+      a
+        color: #525252
+        margin: 0px
+        padding: 0px
