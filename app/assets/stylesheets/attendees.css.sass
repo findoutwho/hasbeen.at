@@ -5,13 +5,29 @@
 
 .attendee-detail
   @include grid-row()
+  .property
+    font-family: "Courier"
+    font-size: 20px
+  .value
+    font-family: "Courier"
+    color: #810051
+    font-size: 20px
+    a
+      color: #810051
+    a:visited
+      color: #810051
+  .avatar
+    @include grid-column(12)
+    img
+      @include thumb
+      margin-top: 10px
   h1, h2
     font-family: "Courier"
   .name
     @include grid-column(12)
+    margin-top: 10px
   .profile
     @include grid-column(12)
+    margin-top: 10px
     ul
       list-style-type: none
-      li
-        font-size: 16px
