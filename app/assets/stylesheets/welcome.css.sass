@@ -4,20 +4,10 @@
 @import 'foundation'
 
 .attendees
-  @include grid-row()
   .attendee
-    @include grid-column(12)
-    margin: 15px
+    @include grid-row()
     list-style-type: none
-    .bracket
-      @include grid-column(1)
-      font-size: 60px
-      font-family: "Courier"
-    .attendee-picture
-      @include grid-column(2)
-      width: 100px
-      height: 100px
     .attendee-name
-      @include grid-column(4)
+      @include grid-column(12)
       font-family: Courier
-      font-size: 16px
+      font-size: 26px
