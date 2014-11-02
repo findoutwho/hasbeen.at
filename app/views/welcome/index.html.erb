@@ -4,7 +4,12 @@
   <ul>
     <% @attendees.each do |attendee| %>
       <li class='attendee'>
-        <%= attendee %>
+        <div class='attendee-picture'>
+          <img src='http://placekitten.com/g/200/300' />
+        </div>
+        <div class='attendee-name'>
+          <%= attendee %>
+        </div>
       </li>
     <% end %>
   </ul>
