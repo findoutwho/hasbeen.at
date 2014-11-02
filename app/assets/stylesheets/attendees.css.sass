@@ -3,6 +3,8 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import 'foundation'
 
+$value-color: #810051
+
 .attendee-detail
   @include grid-row()
   .property
@@ -10,7 +12,7 @@
     font-size: 20px
   .value
     font-family: "Courier"
-    color: #810051
+    color: $value-color
     font-size: 20px
     a
       color: #810051
@@ -31,3 +33,8 @@
     margin-top: 10px
     ul
       list-style-type: none
+    li
+      a
+        white-space: pre-line
+        text-decoration: none
+        border-bottom: 1px solid $value-color
