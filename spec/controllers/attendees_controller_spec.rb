@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe AttendeeController, :type => :controller do
+RSpec.describe AttendeesController, :type => :controller do
 
   describe "GET show" do
     it "returns http success" do

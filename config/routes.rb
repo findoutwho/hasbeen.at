@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
-  get 'attendee/show'
+  get 'attendees/show'
 
   get 'welcome/index'
+  resources :attendees, only: [:show]
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

@@ -9,7 +9,7 @@
           <img src='<%= attendee.avatar %>' />
         </div>
         <div class='attendee-name'>
-          <%= attendee.name %>
+          <%= link_to attendee.name, controller: 'attendees', action: 'show', id: attendee.name %>
         </div>
         <p class="bracket">]</p>
       </li>
