@@ -8,5 +8,16 @@
       <li>- <a href="<%= @attendee.web %>"><%= @attendee.web %></a></li>
       <li>- <a href="https://twitter.com/<%= @attendee.twitter %>"><%= @attendee.twitter %></a></li>
     </ul>
+
+    <div class"events">
+      <h2>events:</h2>
+      <ul>
+        <% @attendee.events.each do |event| %>
+          <li>
+            <%= event %>
+          </li>
+        <% end %>
+      </ul>
+    </div>
   </div>
 </div>
