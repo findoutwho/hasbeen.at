@@ -1,10 +1,9 @@
 class AttendeeLoader
   def load_all
-    [
-      Attendee.new(name: 'Franz', web: 'example.com'),
-      Attendee.new(name: 'max_muetze', web: 'example.com'),
-      Attendee.new(name: 'alice', web: 'example.com'),
-      Attendee.new(name: 'bob', web: 'example.com')
-    ]
+    all_files = Dir.glob(Rails.root.join('config', 'attendees', '*.yaml'))
+    all_files.map do |file|
+      hash = YAML.load_file(file)
+      Attendee.new(hash)
+    end
   end
 end
