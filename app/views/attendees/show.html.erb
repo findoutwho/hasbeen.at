@@ -5,8 +5,8 @@
   <div class="profile">
     <h2>profile:</h2>
     <ul>
-      <li>- <%= @attendee.web %></li>
-      <li>- <%= @attendee.twitter %></li>
-  </ul>
+      <li>- <a href="<%= @attendee.web %>"><%= @attendee.web %></a></li>
+      <li>- <a href="https://twitter.com/<%= @attendee.twitter %>"><%= @attendee.twitter %></a></li>
+    </ul>
   </div>
 </div>
