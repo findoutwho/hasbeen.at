@@ -4,6 +4,21 @@
 @import 'foundation'
 
 $value-color: #810051
+.attendees
+  font-family: "Courier"
+  .heading
+    @include grid-column(12)
+    font-family: "Courier"
+  .attendee
+    @include grid-row()
+    list-style-type: none
+    .attendee-name
+      @include grid-column(12)
+      font-size: 20px
+      a
+        color: #525252
+        margin: 0px
+        padding: 0px
 
 .attendee-detail
   @include grid-row()
