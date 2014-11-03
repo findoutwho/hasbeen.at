@@ -27,6 +27,7 @@ gem 'spring',        group: :development
 
 gem 'foundation-rails'
 gem 'virtus'
+gem 'powder'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0.0'
