@@ -4,7 +4,8 @@ class AttendeesController < ApplicationController
   end
 
   def show
-    @id = request.subdomain
+    @id = request.subdomains.first
     @attendee = AttendeeLoader.by_id(@id)
+    redirect_to root_url(subdomain: false) unless @attendee
   end
 end
