@@ -5,12 +5,12 @@
 
 $value-color: #810051
 .attendees
+  @include grid-row()
   font-family: "Courier"
   .heading
     @include grid-column(12)
     font-family: "Courier"
   .attendee
-    @include grid-row()
     list-style-type: none
     .attendee-name
       @include grid-column(12)
