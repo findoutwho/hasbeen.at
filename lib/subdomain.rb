@@ -1,5 +1,5 @@
 class Subdomain
   def self.matches?(request)
-    request.subdomain.present? && AttedeeLoader.exists?(request.subdomain)
+    request.subdomain.present? && AttendeeLoader.exists?(request.subdomain)
   end
 end
