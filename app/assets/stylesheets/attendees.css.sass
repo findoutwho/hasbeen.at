@@ -2,31 +2,34 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import 'foundation'
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300)
 
 $value-color: #810051
+*
+  font-family: 'Ubuntu', sans-serif
+.main-heading
+  @include grid-column(12)
+  a, a:visited
+    color: #540006
 .attendees
   @include grid-row()
-  font-family: "Courier"
   .heading
     @include grid-column(12)
-    font-family: "Courier"
   .attendee
     list-style-type: none
     .attendee-name
       @include grid-column(12)
       font-size: 20px
       a
-        color: #525252
+        color: $value-color
         margin: 0px
         padding: 0px
 
 .attendee-detail
   @include grid-row()
   .property
-    font-family: "Courier"
     font-size: 20px
   .value
-    font-family: "Courier"
     color: $value-color
     font-size: 20px
     a
@@ -38,8 +41,6 @@ $value-color: #810051
     img
       @include thumb
       margin-top: 10px
-  h1, h2
-    font-family: "Courier"
   .name
     @include grid-column(12)
     margin-top: 10px
