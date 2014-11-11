@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.1.4'
+ruby '2.1.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
@@ -28,6 +28,13 @@ gem 'spring',        group: :development
 gem 'foundation-rails'
 gem 'virtus'
 gem 'powder'
+
+gem 'passenger'
+
+gem 'capistrano', '~> 3.1.0'
+gem 'capistrano-bundler', '~> 1.1.2'
+gem 'capistrano-rails', '~> 1.1.1'
+gem 'capistrano-rvm', github: "capistrano/rvm"
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0.0'
