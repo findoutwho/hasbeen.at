@@ -8,7 +8,6 @@ IP_ADDRESS = ENV['SERVER_IP']
 
 role :app, "deploy@#{IP_ADDRESS}"
 role :web, "deploy@#{IP_ADDRESS}"
-role :db,  "deploy@#{IP_ADDRESS}"
 
 set :stage, :production
 
