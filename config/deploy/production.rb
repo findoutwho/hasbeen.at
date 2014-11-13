@@ -5,6 +5,7 @@
 # unless any hosts have the primary property set.
 # Don't declare `role :all`, it's a meta role
 IP_ADDRESS = ENV['SERVER_IP']
+raise "IP ADDRESS not configured via ENV" unless IP_ADDRESS
 
 role :app, "deploy@#{IP_ADDRESS}"
 role :web, "deploy@#{IP_ADDRESS}"
