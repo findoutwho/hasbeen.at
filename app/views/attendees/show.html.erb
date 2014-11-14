@@ -18,12 +18,16 @@
         <% year_of_events.fetch("events").each do |event| %>
           <li>
             <% if event.respond_to?(:fetch) %>
-              <span class="value"><%= event.fetch('name') %> (<%= year_of_events.fetch("year") %>)</span>
-              <span class="role"><%= event.fetch('role')  %></span>
+              <div class="value">
+                <span class="role"><%= event.fetch('role') %></span>
+                <%= event.fetch('name') %> (<%= year_of_events.fetch("year") %>)
+              </div>
             <% else %>
-              <span class="value"><%= event %> (<%= year_of_events.fetch("year") %>)</span>
-              <span class="role">Attendee</span>
-            <% end %>
+              <div class="value">
+                <span class="role">Attendee</span>
+                <%= event %> (<%= year_of_events.fetch("year") %>)</span>
+            </div>
+          <% end %>
           </li>
         <% end %>
       <% end %>
