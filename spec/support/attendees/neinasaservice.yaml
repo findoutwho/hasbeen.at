@@ -1,0 +1,19 @@
+---
+name: neinasaservice
+web: 'http://unexpected-co.de'
+avatar: 'https://secure.gravatar.com/avatar/8fb4c4eea4580647ac37881cec8606aa.png'
+twitter: 'neinasaservice'
+events:
+  - year: 2012
+    events:
+     - 29c3
+  - year: 2013
+    events:
+      - eurucamp
+      - GOTO Conference
+  - year: 2014
+    events:
+      - wroclove.rb
+      - republica
+      - eurucamp
+      - railscamp

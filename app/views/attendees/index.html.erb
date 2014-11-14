@@ -4,7 +4,7 @@
     <% @attendees.each do |attendee| %>
       <li class='attendee'>
         <div class='attendee-name'>
-          <%= link_to "- #{attendee.name}", root_url(:subdomain => attendee.name) %>
+          <%= link_to "- #{attendee.name}", root_url(:subdomain => attendee.filename) %>
         </div>
       </li>
     <% end %>
