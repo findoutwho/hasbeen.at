@@ -44,8 +44,11 @@ events:
       - wroclove.rb
       - republica
       - eurucamp
-      - railscamp
+      - {name: "eurucamp", role: "organizer"}
 ```
+
+You can also specify a custom role for an event like `organizer`. If no
+role was specified, then it defaults to `attendee`.
 
 Before you submit, make sure that validation passes:
 
