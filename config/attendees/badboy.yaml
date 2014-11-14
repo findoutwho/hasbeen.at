@@ -1,8 +1,8 @@
 ---
-name: "badboy_"
+name: badboy
 web: "https://fnordig.de"
 twitter: "badboy_"
-gravatar: "dd016fe8d3b2f44d2c9c5f3367b3ad25"
+avatar: "https://secure.gravatar.com/avatar/dd016fe8d3b2f44d2c9c5f3367b3ad25.png"
 events:
   - year: 2012
     events:
