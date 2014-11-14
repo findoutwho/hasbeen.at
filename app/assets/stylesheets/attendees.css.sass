@@ -44,6 +44,11 @@ $value-color: #810051
   .name
     @include grid-column(12)
     margin-top: 10px
+  .event-list
+    @include grid-column(12)
+    ul
+      @include inline-list
+      list-style-type: none
   .profile
     @include grid-column(12)
     margin-top: 10px
@@ -54,5 +59,3 @@ $value-color: #810051
         white-space: pre-line
         text-decoration: none
         border-bottom: 1px solid $value-color
-  .events
-    @include grid-column(12)
