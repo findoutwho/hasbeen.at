@@ -1,0 +1,27 @@
+---
+name: "badboy_"
+web: "https://fnordig.de"
+twitter: "badboy_"
+gravatar: "dd016fe8d3b2f44d2c9c5f3367b3ad25"
+events:
+  - year: 2012
+    events:
+      - "NoSQL Matters CGN"
+      - 29c3
+  - year: 2013
+    events:
+      - FrOSCon
+      - "RailsCamp Germany"
+      - 30c3
+  - year: 2014
+    events:
+      - FOSDEM
+      - {name: "OpenTechSchool - HTML & CSS for beginners", role: "Coach"}
+      - {name: "OpenTechSchool - Javascript for beginners", role: "Coach"}
+      - eurucamp
+      - {name: "FrOSCon / RedFrog Conf", role: "Speaker"}
+      - "JSConf EU"
+      - reject.js
+      - "RailsCamp Germany"
+      - {name: 'Barcamp "The Next Web" Salzburg', role: "Coach"}
+      - "IETF 91"
