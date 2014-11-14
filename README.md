@@ -1,5 +1,8 @@
 #hasbeen.at
 
+[![Build
+Status](https://travis-ci.org/schultyy/hasbeen.at.svg?branch=master)](https://travis-ci.org/schultyy/hasbeen.at)
+
 Events we have been at. View also [hasbeen.in](http://hasbeen.in).
 
 ## develop
