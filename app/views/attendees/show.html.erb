@@ -1,29 +1,27 @@
 <div class="attendee-detail">
-  <div class="avatar">
-    <img src="<%= @attendee.avatar %>" />
-  </div>
-  <div class="name">
-    <span class="property">name: </span><span class="value"><%= @attendee.name %></span>
-  </div>
   <div class="profile">
+    <div class="avatar">
+      <img src="<%= @attendee.avatar %>" />
+    </div>
+    <div class="name">
+      <span class="property">name: </span><span class="value"><%= @attendee.name %></span>
+    </div>
     <div class="property">profile:</div>
     <ul>
       <li>- <a href="<%= @attendee.web %>"><span class="value"><%= @attendee.web %></span></a></li>
       <li>- <a href="https://twitter.com/<%= @attendee.twitter %>"><span class="value"><%= @attendee.twitter %></span></a></li>
     </ul>
+  </div>
 
-    <div class"events">
-      <div class="property">events:</div>
-        <% @attendee.events.each do |year_of_events| %>
-          <p><%= year_of_events.fetch("year") %></p>
-          <ul>
-            <% year_of_events.fetch("events").each do |event| %>
-              <li>
-              - <span class="value"><%= event %></span>
-              </li>
-            <% end %>
-          </ul>
+  <div class"events">
+    <ul>
+      <% @attendee.events.each do |year_of_events| %>
+        <% year_of_events.fetch("events").each do |event| %>
+          <li>
+          <span class="value"><%= event %> (<%= year_of_events.fetch("year") %>)</span>
+          </li>
         <% end %>
-    </div
+      <% end %>
+    </ul>
   </div>
 </div>
