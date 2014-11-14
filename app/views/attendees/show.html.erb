@@ -16,7 +16,15 @@
     <ul>
       <% @attendee.events.each do |year_of_events| %>
         <% year_of_events.fetch("events").each do |event| %>
-          <li><span class="value"><%= event %> (<%= year_of_events.fetch("year") %>)</span></li>
+          <li>
+            <% if event.respond_to?(:fetch) %>
+              <span class="value"><%= event.fetch('name') %> (<%= year_of_events.fetch("year") %>)</span>
+              <span class="role"><%= event.fetch('role')  %></span>
+            <% else %>
+              <span class="value"><%= event %> (<%= year_of_events.fetch("year") %>)</span>
+              <span class="role">Attendee</span>
+            <% end %>
+          </li>
         <% end %>
       <% end %>
     </ul>
