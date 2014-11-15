@@ -9,6 +9,7 @@ events:
      - 29c3
   - year: 2013
     events:
+      - {name: "RailsGirls Aniversary Workshop", role: "Coach"}
       - eurucamp
       - GOTO Conference
   - year: 2014
@@ -16,4 +17,6 @@ events:
       - wroclove.rb
       - republica
       - eurucamp
+      - {name: "RailsGirls Workshop @ eurucamp", role: "Coach"}
       - railscamp
+      - {name: "RailsGirls October Workshop", role: "Coach"}
