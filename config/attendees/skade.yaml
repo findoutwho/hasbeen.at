@@ -1,0 +1,56 @@
+---
+name: skade
+web: 'http://skade.me'
+avatar: 'https://avatars1.githubusercontent.com/u/47542?v=3&s=460'
+twitter: 'argorak'
+events:
+  - year: 2007
+    events:
+      - EuRuKo
+      - RailsConf Europe
+  - year: 2008
+    events:
+      - EuRuKo
+  - year: 2009
+    events:
+      - EuRuKo
+  - year: 2010
+    events:
+      - {name: "EuRuKo", role: "Speaker"}
+      - RailsWayCon
+      - {name: "germany.rb", role: "Organizer"}
+  - year: 2011
+    events:
+      - EuRuKo
+      - {name: "eurucamp", role: "Speaker"}
+      - {name: "germany.rb", role: "Organizer"}
+  - year: 2012
+    events:
+      - {name: "wroclove.rb", role: "Speaker" }
+      - NoSQL Matters
+      - Nordic Ruby
+      - {name: "eurucamp", role: "Organizer"}
+      - {name: "JRubyConf.EU", role: "Organizer"}
+      - Lightning.io
+      - Baruco
+      - {name: "RubyConf Argentina", role: "Speaker"}
+      - EuRuKo
+  - year: 2013
+    events:
+      - {name: "wroclove.rb", role: "Speaker" }
+      - Nordic Ruby
+      - {name: "eurucamp", role: "Organizer"}
+      - {name: "JRubyConf.EU", role: "Organizer"}
+      - Railscamp
+      - Baruco
+      - Devops Days Paris
+      - GOTO Conference
+  - year: 2014
+    events:
+      - {name: "FOSDEM", role: "Speaker"}
+      - wroclove.rb
+      - eCommerce Barcamp Jena
+      - Scotruby
+      - {name: "RubyConf Uruguay", role: "Speaker"}
+      - {name: "eurucamp", role: "Organizer"}
+      - {name: "JRubyConf.EU", role: "Organizer"}
