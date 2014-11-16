@@ -1,0 +1,55 @@
+---
+name: bascht
+web: 'https://bascht.com'
+avatar: 'https://secure.gravatar.com/avatar/8656dc5476c819d4dcbd932a5744122a.png'
+twitter: 'bascht'
+events:
+  - year: 2008
+    events:
+      - 25c3
+      - SymfonyCamp
+      - Barcamp Leipzig
+  - year: 2009
+    events:
+      - 26c3
+      - RuPy
+  - year: 2010
+    events:
+      - 27c3
+      - Symfony Live
+      - Symfony Day
+      - Germany.rb
+  - year: 2011
+    events:
+      - PyCon
+      - 28c3
+      - Euruko
+      - eurucamp
+      - railscamp
+      - subconf
+      - Germany.rb
+  - year: 2012
+    events:
+      - eurucamp
+      - NoSQL matters
+      - Baruco
+      - Lightning.io
+      - SIGINT
+      - Symfony Live
+  - year: 2013
+    events:
+      - wroclove.rb
+      - 30c3
+      - PyCon
+      - FrOSCon
+      - {name: RedFrogConf, role: "Speaker"}
+      - railscamp
+      - DevOpsDays
+  - year: 2014
+    events:
+      - FOSDEM
+      - Baruco
+      - DevOpsDays
+      - {name: eurucamp, role: "Organizer"}
+      - railscamp
+      - PolyConf
