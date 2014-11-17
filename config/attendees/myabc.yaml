@@ -1,0 +1,36 @@
+---
+name: myabc
+web: 'https://alexbcoles.com'
+avatar: 'https://secure.gravatar.com/avatar/2de7cfe0e754a17553e49061e970e417.png'
+twitter: 'myabc'
+events:
+  - year: 2009
+    events:
+      - RubyFoo
+  - year: 2010
+    events:
+      - RubyAndRails
+  - year: 2011
+    events:
+      - {name: "eurucamp", role: "Organizer"}
+      - Ruby Lugdunum
+      - {name: "RubyConf Argentina", role: "Speaker"}
+  - year: 2012
+    events:
+      - wroclove.rb
+      - EuRuKo
+      - {name: "RailsWayCon", role: "Speaker"}
+      - {name: "RubyDay Italia", role: "Speaker"}
+      - {name: "eurucamp", role: "Organizer"}
+      - RubyShift
+      - BubbleConf
+  - year: 2013
+    events:
+      - wroclove.rb
+      - {name: eurucamp, role: "Organizer"}
+  - year: 2014
+    events:
+      - {name: "wroclove.rb", role: "Speaker"}
+      - {name: "eurucamp", role: "Organizer"}
+      - {name: "RubyConf Portugal", role: "Speaker"}
+      - {name: "GOTO Berlin", role: "Speaker"}
