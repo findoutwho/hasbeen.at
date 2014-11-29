@@ -1,0 +1,41 @@
+---
+name: timoschilling
+web: 'http://schilling.io'
+avatar: 'https://secure.gravatar.com/avatar/0d538506cb7d350250906243645c28d4.png'
+twitter: captainhagbard
+events:
+  - year: 2008
+    events:
+     - BarCampRuhr
+  - year: 2009
+    events:
+     - BarCampRuhr 2
+     - BarCamp Cologne 2009
+  - year: 2010
+    events:
+     - BarCampRuhr 3
+     - RailsCamp Germany 4
+  - year: 2011
+    events:
+     - BarCampRuhr 4
+     - Railscamp Poland
+     - Barcamp Nürnberg
+     - eurucamp Berlin 2011
+  - year: 2012
+    events:
+     - wroc_love.rb
+     - BarCamp Ruhr 5
+     - ADVANCE Hackathon
+     - NoSQL matters 2012
+     - EuRuKo 2012
+     - eurucamp 2012
+     - JRubyConf EU 2012
+  - year: 2013
+    events:
+     - BarCampRuhr6
+     - Railsberry 2013
+     - EuRuKo 2013
+     - BarCamp Hamburg 2013
+  - year: 2014
+    events:
+     - RailsCamp Germany 2014
