@@ -20,3 +20,4 @@ events:
       - {name: "RailsGirls Workshop @ eurucamp", role: "Coach"}
       - railscamp
       - {name: "RailsGirls October Workshop", role: "Coach"}
+      - Erlang Factory Lite
