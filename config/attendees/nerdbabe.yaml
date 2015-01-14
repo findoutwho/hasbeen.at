@@ -7,9 +7,6 @@ events:
   - year: 2009
     events:
       - FrOSCon
-  - year: 2010
-    events:
-
   - year: 2011
     events:
       - LinuxTage
