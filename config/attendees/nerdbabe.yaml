@@ -1,0 +1,61 @@
+---
+name: nerdbabe
+web: 'http://nerdbabe.de'
+avatar: 'https://secure.gravatar.com/avatar/08ecd830b4987f149a1d1b9af2c0aeb5.png'
+twitter: 'nerdbabe'
+events:
+  - year: 2009
+    events:
+      - FrOSCon
+  - year: 2011
+    events:
+      - LinuxTage
+      - Gamescom
+      - 28c3
+  - year: 2012
+    events:
+      - Rails Girls Workshop Berlin
+      - {name: Rails Girls Berlin Workshop May, role: "Organizer"}
+      - {name: Rails Girls Berlin & Railsbridge Workshop, role: "Organizer"}
+      - Open Tech School - Javascrit for Beginners
+      - eurucamp
+      - {name: Rails Beginners Workshop @eurucamp, role: "Organizer"}
+      - CampusParty
+      - {name: Rails Girls Berlin Workshop @CampusParty, role: "Organizer"}
+      - GeekGirlMeetup
+      - Rails Girls Cologne
+      - {name: Rails Girls Berlin Hackday Oct, role: "Organizer"}
+      - {name: Rails Girls Berlin Workshop Dec, role: "Organizer"}
+  - year: 2013
+    events:
+      - {name: Rails Girls Berlin Workshop Feb, role: "Organizer"}
+      - {name: Rails Girls Berlin Hackday March, role: "Organizer"}
+      - Open Tech School - Python for Beginners
+      - {name: Rails Girls Berlin Anniversary Workshop, role: "Organizer"}
+      - {name: Tech Open Air Berlin - Introduction to HTML & CSS, role: "Organizer"}
+      - eurucamp
+      - {name: Rails Beginners Workshop @eurucamp, role: "Organizer"}
+      - GeekGirlMeetup
+      - {name: Rails Girls Berlin Hackday Oct, role: "Organizer"}
+      - Berlin Geekettes University Edition
+      - {name: Rails Girls Berlin Winter Hackday, role: "Organizer"}
+  - year: 2014
+    events:
+      - {name: Rails Girls Berlin Hackday Feb, role: "Organizer"}
+      - {name: Rails Girls Berlin University Edition, role: "Organizer"}
+      - Gender UseIT
+      - re:publica
+      - Geek Girl Carrots - Scrum Workshop
+      - {name: eurucamp, role: "Organizer"}
+      - {name: Rails Beginners Workshop @eurucamp, role: "Organizer"}
+      - {name: RedFrogConf, role: "Speaker"}
+      - FrOSCon
+      - {name: Rails Girls Berlin Hackday Sep, role: "Organizer"}
+      - {name: railscamp, role: "Speaker"}
+      - Arrrrcamp
+      - AdaCamp
+      - {name: Rails Girls Berlin Workshop Oct, role: "Organizer"}
+      - {name: PolyConf, role: "Speaker"}
+      - GOTO Berlin
+      - {name: Rails Girls Berlin Winter Hackday, role: "Organizer"}
+      - 31C3
