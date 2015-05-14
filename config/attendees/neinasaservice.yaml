@@ -21,3 +21,7 @@ events:
       - railscamp
       - {name: "RailsGirls October Workshop", role: "Coach"}
       - Erlang Factory Lite
+      - 31. Chaos Communication Congress
+  - year: 2015
+    events:
+      - ROSSConf Vienna
