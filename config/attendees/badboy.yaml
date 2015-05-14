@@ -25,3 +25,7 @@ events:
       - "RailsCamp Germany"
       - {name: 'Barcamp "The Next Web" Salzburg', role: "Coach"}
       - "IETF 91"
+  - year: 2015
+    events:
+      - FOSDEM
+      - ".concat() 2015"
