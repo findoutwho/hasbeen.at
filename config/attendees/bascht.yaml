@@ -53,3 +53,7 @@ events:
       - {name: eurucamp, role: "Organizer"}
       - railscamp
       - PolyConf
+      - 31c3
+  - year: 2015
+    events:
+      - {name: eurucamp, role: "Organizer"}
