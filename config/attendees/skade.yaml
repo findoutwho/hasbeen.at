@@ -54,3 +54,9 @@ events:
       - {name: "RubyConf Uruguay", role: "Speaker"}
       - {name: "eurucamp", role: "Organizer"}
       - {name: "JRubyConf.EU", role: "Organizer"}
+  - year: 2015
+    events:
+      - {name: "FOSDEM", role: "Organizer"}
+      - {name: "eCommerce Barcamp Jena", role: "Speaker"}
+      - eurucamp
+      - JRubyConf.EU
