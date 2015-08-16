@@ -25,3 +25,5 @@ events:
   - year: 2015
     events:
       - ROSSConf Vienna
+      - {name: "eurucamp", role: "Organizer"}
+      - OTSConf
