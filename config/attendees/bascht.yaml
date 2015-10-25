@@ -57,3 +57,4 @@ events:
   - year: 2015
     events:
       - {name: eurucamp, role: "Organizer"}
+      - Euruko
