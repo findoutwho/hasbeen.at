@@ -25,7 +25,10 @@ events:
       - "RailsCamp Germany"
       - {name: 'Barcamp "The Next Web" Salzburg', role: "Coach"}
       - "IETF 91"
+      - 31c3
   - year: 2015
     events:
       - FOSDEM
-      - ".concat() 2015"
+      - ".concat()"
+      - {name: "otsconf", role: "Organizer"}
+      - "Redis Developer Day London"
