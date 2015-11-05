@@ -33,3 +33,4 @@ events:
       - {name: "otsconf", role: "Organizer"}
       - "Redis Developer Day London"
       - {name: "Hungarian Web Conference", role: "Speaker"}
+      - 32c3
