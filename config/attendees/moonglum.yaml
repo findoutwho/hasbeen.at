@@ -1,0 +1,27 @@
+---
+name: moonglum
+web: 'https://lucas.dohmen.io'
+avatar: 'https://avatars2.githubusercontent.com/u/95788?v=3&s=460'
+twitter: 'moonbeamlabs'
+events:
+  - year: 2014
+    events:
+      - {name: "RubyConf India", role: "speaker"}
+      - {name: "Abril Pro Ruby", role: "speaker"}
+      - {name: "RedDotRubyConf", role: "speaker"}
+      - {name: "Developer Week", role: "speaker"}
+      - eurucamp
+      - {name: "Froscon", role: "speaker"}
+      - {name: "Code.Talks", role: "speaker"}
+      - {name: "RubyConf Argentina", role: "speaker"}
+      - {name: "PolyConf", role: "speaker"}
+      - {name: "Goto Berlin", role: "speaker"}
+      - 31c3
+  - year: 2015
+    events:
+      - {name: "eurucamp", role: "organizer"}
+      - Froscon
+      - Chaos Communication Camp
+      - {name: "RubySauna", role: "speaker"}
+      - Euruko
+      - 32c3
