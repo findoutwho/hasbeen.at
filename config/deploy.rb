@@ -6,11 +6,12 @@ set :repo_url, 'git@github.com:schultyy/hasbeen.at.git'
 #set :repository, 'https://username:password@github.com/username/repo.git'
 
 # Default branch is :master
+set :branch, 'master'
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
 
 # Default deploy_to directory is /var/www/my_app
-set :deploy_to, '/home/deploy/hasbeenat'
-set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
+set :deploy_to, '/var/apps/hasbeen.at'
+set :linked_dirs, %w{bin log tmp/pids tmp/log tmp/cache tmp/sockets vendor/bundle public/system}
 set :ssh_options, { :forward_agent => true,paranoid: true, keys: "~/.ssh/id_rsa" }
 # Default value for :scm is :git
 set :scm, :git
@@ -41,8 +42,7 @@ namespace :deploy do
   desc 'Restart application'
   task :restart do
     on roles(:app), in: :sequence, wait: 5 do
-      # Your restart mechanism here, for example:
-      execute :touch, release_path.join('tmp/restart.txt')
+      execute :sudo, '/bin/systemctl restart app.service'
     end
   end
 
