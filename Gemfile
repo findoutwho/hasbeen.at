@@ -14,7 +14,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 gem 'spring',        group: :development
 
-gem 'foundation-rails'
+gem 'foundation-rails', '~> 5.4.5'
 gem 'virtus'
 gem 'powder'
 
