@@ -11,6 +11,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'json', '~> 1.8.2'
 gem 'sdoc', '~> 0.4.0',          group: :doc
+gem 'rake', '< 11.0'
 
 gem 'spring',        group: :development
 
