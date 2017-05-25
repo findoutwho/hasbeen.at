@@ -20,7 +20,7 @@ require 'capistrano/rails'
 # require 'capistrano/rbenv'
 # require 'capistrano/chruby'
 # require 'capistrano/bundler'
-# require 'capistrano/rails/assets'
+require 'capistrano/rails/assets'
 # require 'capistrano/rails/migrations'
 
 # Loads custom tasks from `lib/capistrano/tasks' if you have any defined.
