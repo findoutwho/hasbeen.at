@@ -11,7 +11,9 @@ before_install:
 jobs:
   include:
     - stage: test
-      script: bundle exec rake spec validate:attendees
+      script: bundle exec rake spec
+    - stage: validate
+      script: bundle exec rake validate:attendees
     - stage: deploy
       script:
         - bundle exec cap production deploy
