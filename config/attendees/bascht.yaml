@@ -58,3 +58,11 @@ events:
     events:
       - {name: eurucamp, role: "Organizer"}
       - Euruko
+      - 32c3
+  - year: 2016
+    events:
+      - {name: microXchg, role: "Speaker"}
+      - {name: FrOSCon, role: "Speaker"}
+      - Euruko
+      - 33c3
+      - JS Kongress Munich
