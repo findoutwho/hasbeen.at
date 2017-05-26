@@ -4,11 +4,16 @@
 # server in each group is considered to be the first
 # unless any hosts have the primary property set.
 # Don't declare `role :all`, it's a meta role
+<<<<<<< HEAD
 IP_ADDRESS = ENV['SERVER_IP']
 raise "SERVER_IP not configured via ENV" unless IP_ADDRESS
 
 role :app, "deploy@#{IP_ADDRESS}"
 role :web, "deploy@#{IP_ADDRESS}"
+=======
+role :app, "deploy@138.68.69.57"
+role :web, "deploy@138.68.69.57"
+>>>>>>> Configure build stages
 
 set :stage, :production
 
