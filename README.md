@@ -1,7 +1,4 @@
-# hasbeen.at
-
-[![Build
-Status](https://travis-ci.org/schultyy/hasbeen.at.svg?branch=master)](https://travis-ci.org/schultyy/hasbeen.at)
+# hasbeen.at [![Build Status](https://travis-ci.org/findoutwho/hasbeen.at.svg?branch=master)](https://travis-ci.org/findoutwho/hasbeen.at)
 
 Events we have been at. View also [hasbeen.in](http://hasbeen.in).
 
