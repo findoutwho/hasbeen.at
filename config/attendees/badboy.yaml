@@ -37,5 +37,5 @@ events:
   - year: 2016
     events:
       - RuhrJS
-      - {"View Source", role: "Coach" }
-      - {"RustFest", role: "Organizer"}
+      - {name: "View Source", role: "Coach" }
+      - {name: "RustFest", role: "Organizer"}

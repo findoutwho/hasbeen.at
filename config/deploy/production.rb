@@ -4,11 +4,8 @@
 # server in each group is considered to be the first
 # unless any hosts have the primary property set.
 # Don't declare `role :all`, it's a meta role
-IP_ADDRESS = ENV['SERVER_IP']
-raise "SERVER_IP not configured via ENV" unless IP_ADDRESS
-
-role :app, "deploy@#{IP_ADDRESS}"
-role :web, "deploy@#{IP_ADDRESS}"
+role :app, "deploy@138.68.69.57"
+role :web, "deploy@138.68.69.57"
 
 set :stage, :production
 
@@ -18,7 +15,7 @@ set :stage, :production
 # definition into the server list. The second argument
 # something that quacks like a hash can be used to set
 # extended properties on the server.
-server IP_ADDRESS, user: 'deploy', roles: %w{web app}
+server "138.68.69.57", user: 'deploy', roles: %w{web app}
 
 # you can set custom ssh options
 # it's possible to pass any option but you need to keep in mind that net/ssh understand limited list of options
