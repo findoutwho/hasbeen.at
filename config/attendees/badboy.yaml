@@ -39,3 +39,9 @@ events:
       - RuhrJS
       - {name: "View Source", role: "Coach" }
       - {name: "RustFest", role: "Organizer"}
+      - {name: "Rust Belt Rust", role: "Speaker"}
+  - year: 2017
+    events:
+      - {name: "Booster Conf", role: "Coach"}
+      - {name: "Codemotion Amsterdam", role: "Speaker"}
+      - {name: "RustFest Kyiv", role: "Organizer"}
