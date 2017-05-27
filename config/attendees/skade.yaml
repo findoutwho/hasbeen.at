@@ -69,5 +69,5 @@ events:
   - year: 2017
     events:
       - {name: "RustFest Kyiv", role: "Organizer"}
-      - {name: "JSConf.EU"}
-      - {name: "AlterConf Berlin"}
+      - JSConf.EU
+      - AlterConf Berlin
