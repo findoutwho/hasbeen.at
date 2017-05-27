@@ -60,3 +60,14 @@ events:
       - {name: "eCommerce Barcamp Jena", role: "Speaker"}
       - eurucamp
       - JRubyConf.EU
+      - {name: "CodeMotion Berlin", role: "Speaker"}
+  - year: 2016
+    events:
+      - BathRuby
+      - {name: "RustFest", role: "Organizer"}
+      - {name: "OSCON London", role: "Speaker"}
+  - year: 2017
+    events:
+      - {name: "RustFest Kyiv", role: "Organizer"}
+      - {name: "JSConf.EU"}
+      - {name: "AlterConf Berlin"}
